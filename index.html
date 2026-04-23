@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+    <meta charset="UTF-8">
+    <!-- Ensures your site looks correct on all devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- SEO Essentials -->
+    <title>Free&Up | Professional HTML & CSS Developer</title>
+    <meta name="description" content="Certified HTML & CSS specialist providing high-performance, custom-coded web solutions for small businesses.">
+    <meta name="author" content="Your Name">
+
+    <!-- Google Fonts: Using 'Inter' (very popular for professional/tech sites) -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <!-- Your External CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon (the small tab icon) -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!--script/javaScript-->
+    
+
+
+</head>
+<body>
+    <noscript>
+    <div class="noscript-banner">
+        <p><strong>Note:</strong> JavaScript is disabled in your browser. Some features, like the theme toggle, may not be available, but you can still view my work below!</p>
+    </div>
+</noscript>
+    <!-- The Header: Logo and Navigation -->
+    <header class="navbar">
+        <div class="container nav-flex">
+            <div class="logo">Free&<span>Up&uparrow;</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" class="btn-cta">Get a Quote</a></li>
+                    <li>
+                        <button id="theme-toggle" aria-label="Toggle Dark Mode">
+                            <span class="sun">☀️</span>
+                            <span class="moon">🌙</span>
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <main>
+        <!-- Section 1: Hero (The first thing clients see) -->
+        <section class="hero">
+            <h1>Custom-Coded Websites for Growing Businesses</h1>
+            <p>High-performance HTML & CSS solutions to give your brand a professional edge.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn-main">Work With Me</a>
+                <a href="#projects" class="btn-secondary">View My Work</a>
+            </div>
+        </section>
+
+        <!-- Section 2: Services -->
+        <section id="services" class="services">
+            <h2>Specialized Web Solutions</h2>
+            <!-- Use a grid for these later -->
+            <div class="service-item">Landing Pages</div>
+            <div class="service-item">Business Portfolios</div>
+            <div class="service-item">Email Templates</div>
+        </section>
+
+        <!-- Section 3: Portfolio -->
+        <section id="projects" class="portfolio">
+            <h2>Featured Projects</h2>
+            <!-- This is where your concept projects will go -->
+        </section>
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <span class="badge">Available for New Projects</span>
+                    <h1>High-Performance Websites <br>Built with <span>Clean Code</span></h1>
+                    <p>I build custom HTML & CSS sites for small businesses that load faster, rank higher, and convert more visitors into customers.</p>
+                    <div class="hero-actions">
+                        <a href="#contact" class="btn-primary">Start a Project</a>
+                        <a href="#projects" class="btn-outline">View Portfolio</a>
+                    </div>
+                </div>
+            </div>
+        </section>       
+        <section id="services" class="services">
+            <div class="container">
+                <h2 class="section-title">What I Offer</h2>
+                <div class="services-grid">
+                    <!-- Card 1 -->
+                    <div class="service-card">
+                        <div class="icon">🚀</div>
+                        <h3>Landing Pages</h3>
+                        <p>High-converting, single-page sites designed to turn visitors into customers. Perfect for product launches.</p>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="service-card">
+                        <div class="icon">📱</div>
+                        <h3>Business Portfolios</h3>
+                        <p>Fast, responsive multi-page websites for local businesses and professionals who need a digital presence.</p>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="service-card">
+                        <div class="icon">✉️</div>
+                        <h3>Email Templates</h3>
+                        <p>Custom-coded, responsive HTML emails that look perfect across all devices and email clients.</p>
+                    </div>
+                </div>
+            </div>
+        </section>    
+        <section id="about" class="about">
+            <div class="container about-flex">
+                <div class="about-text">
+                    <h2>Professional Expertise</h2>
+                    <p>I don't just build websites; I build verified solutions. My approach combines clean, semantic HTML5 with modern CSS3 to ensure your business is accessible and lightning-fast.</p>
+                    
+                    <div class="certifications">
+                        <h3>certifications (pictures taken using personal camera)</h3>
+                        <div class="cert-badge">
+                            <span>Certiport ITS HTML & CSS</span>
+                            <img src="IMG_20260423_071450.jpg" alt="certiport" width="720">
+                        </div>
+                        <div class="cert-badge">
+                            <span>Knowledge Pillars HTML & CSS</span>
+                            <img src="IMG_20260423_071555.jpg" alt="knowledge pillars" width="720">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>   
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2 class="section-title">Start a Conversation</h2>
+                <p class="contact-subtitle">Ready to upgrade your web presence? Send me a message below.</p>
+                
+                <div class="contact-wrapper">
+                    <!-- Replace 'your-form-id' with the ID you get from Formspree -->
+                    <form action="https://formspree.io/f/xwvawgrr" method="POST" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Doe" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="john@example.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Project Details</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your website goals..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn-primary w-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>                  
+    </main>
+
+    <!-- The Footer: Secondary links and contact info -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <div class="logo">Free&<span>Up&uparrow;</span></div>
+                <p>Custom web development with a focus on performance.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-social">
+                <h4>Connect</h4>
+                <div class="social-icons">
+                    <a href="https://github.com/square-c418">GitHub</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Free&Up. All Rights Reserved.</p>
+        </div>
+    </footer>
+    
+    <!--JavaScript-->
+    <script src="script.js"></script>
+</body>
+</HTML>
