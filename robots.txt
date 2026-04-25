@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemaps help Google find your pages faster
+Sitemap: https://freeandup.netlify.app
